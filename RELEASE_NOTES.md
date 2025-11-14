@@ -177,8 +177,8 @@ This project is released under the MIT License. See LICENSE.txt for details.
 
 ### Credits
 
-**Developed by:** University of Moratuwa Students
-**Course:** IN 3111 - Network Programming
+**Developed by:** [mrcentimetre](https://github.com/mrcentimetre)
+**University:** University of Moratuwa
 **Year:** 2025
 
 **Technologies Used:**
@@ -187,10 +187,17 @@ This project is released under the MIT License. See LICENSE.txt for details.
 - Java Swing GUI
 - Multi-threading (java.util.concurrent)
 
+**Skills Demonstrated:**
+- Full-stack application development (server + client)
+- Network protocol design and implementation
+- Multi-threaded architecture
+- GUI/UX design
+- Software packaging and distribution
+
 ### Support
 
 For issues, questions, or contributions:
-- GitHub Issues: https://github.com/yourusername/multiclient-chat-app/issues
+- GitHub Issues: https://github.com/mrcentimetre/multiclient-chat-app/issues
 - Documentation: See README.md in source repository
 
 ### Future Enhancements (Roadmap)

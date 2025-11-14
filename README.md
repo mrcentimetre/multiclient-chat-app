@@ -1,10 +1,12 @@
 # Enhanced Multi-Client Chat Application
 
-[![Release](https://img.shields.io/github/v/release/mrcentimetre/multiclient-chat-app)](https://github.com/mrcentimetre/multiclient-chat-app/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 [![Java](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey.svg)]()
 
-A Java-based network chat application demonstrating socket programming, multi-threading, and real-time communication with private messaging capabilities.
+A production-ready Java chat application demonstrating advanced socket programming, multi-threading, and real-time communication. Features include group messaging, private chat, and a professional GUI - all built from scratch.
+
+**🚀 [Download Latest Release](https://github.com/mrcentimetre/multiclient-chat-app/releases/latest)**
 
 ## Screenshots
 
@@ -69,14 +71,14 @@ See [Setup and Installation](#setup-and-installation) section below.
 
 ## 🎯 Overview
 
-This is a comprehensive chat application built for the IN 3111 - Network Programming course at the University of Moratuwa. It demonstrates core networking concepts including TCP sockets, multi-threading, client-server architecture, and data streaming.
+A comprehensive chat application demonstrating advanced network programming concepts including TCP sockets, multi-threading, client-server architecture, and real-time data streaming. Built from scratch using Java Socket Programming.
 
-**Key Learning Objectives:**
+**Key Features Demonstrated:**
 - Real-time client-server communication using Java sockets
 - Multi-threaded server handling multiple clients simultaneously
-- Structured message protocols for data exchange
-- GUI development with Java Swing
-- Private messaging with message routing
+- Custom message protocol for efficient data exchange
+- Professional GUI development with Java Swing
+- Advanced private messaging with intelligent message routing
 
 ## ✨ Features
 
@@ -208,7 +210,7 @@ This creates a `release/enhanced-chat-app-v1.0.0.zip` file containing:
 
 ### Project Structure
 ```
-EnhancedChatApp/
+multiclient-chat-app/
 ├── src/
 │   ├── common/              # Shared classes
 │   │   ├── Constants.java   # Configuration constants
@@ -246,7 +248,7 @@ EnhancedChatApp/
 
 ```bash
 # Navigate to project directory
-cd "/Users/udananimsara/Documents/Learn/UOM Projects/EnhancedChatApp"
+cd multiclient-chat-app
 
 # Create bin directory if it doesn't exist
 mkdir -p bin
@@ -260,7 +262,7 @@ javac -encoding UTF-8 -d bin src/common/*.java src/server/*.java src/client/*.ja
 Open a new terminal window:
 
 ```bash
-cd "/Users/udananimsara/Documents/Learn/UOM Projects/EnhancedChatApp"
+cd multiclient-chat-app
 java -cp bin server.Server
 ```
 
@@ -280,19 +282,19 @@ Open additional terminal windows (one per client):
 
 **Client 1:**
 ```bash
-cd "/Users/udananimsara/Documents/Learn/UOM Projects/EnhancedChatApp"
+cd multiclient-chat-app
 java -cp bin client.ui.LoginUI
 ```
 
 **Client 2:**
 ```bash
-cd "/Users/udananimsara/Documents/Learn/UOM Projects/EnhancedChatApp"
+cd multiclient-chat-app
 java -cp bin client.ui.LoginUI
 ```
 
 **Client 3:**
 ```bash
-cd "/Users/udananimsara/Documents/Learn/UOM Projects/EnhancedChatApp"
+cd multiclient-chat-app
 java -cp bin client.ui.LoginUI
 ```
 
@@ -309,7 +311,7 @@ java -cp bin client.ui.LoginUI
 2. Click "Send" or press Enter
 3. Your message will be broadcast to all connected users
 
-### Private Chat (YOUR FEATURE!)
+### Private Chat
 
 **Method 1: Using the Button**
 1. Select a user from the "Online Users" list on the right
@@ -522,26 +524,31 @@ javac -encoding UTF-8 -d bin src/...
 - Examine `Client.java` - understand client networking
 - Finally UI files - see user interface implementation
 
-## 👥 Contributors
+## 👨‍💻 Developer
 
-**Group G-30 (SocketFive)**
-- Member 1: Server setup + Multi-threaded handling
-- Member 2: Client chat interface
-- **Member 3: Private messaging feature** (Your contribution!)
-- Member 4: File transfer (not implemented in this version)
-- Member 5: Admin console (not implemented in this version)
+**Developed by:** [mrcentimetre](https://github.com/mrcentimetre)
+
+This project showcases:
+- Complete full-stack application development (server + client)
+- Advanced Java socket programming and networking
+- Multi-threaded architecture design and implementation
+- Professional GUI design with Java Swing
+- Custom protocol design and implementation
+- Production-ready software packaging and distribution
 
 ## 📝 License
 
-This project is created for educational purposes as part of the IN 3111 - Network Programming course at the University of Moratuwa.
+MIT License - See [LICENSE.txt](LICENSE.txt) for details.
 
-## 🎓 Course Information
+This project is open source and available for educational purposes.
 
-- **Course**: IN 3111 - Network Programming
-- **University**: University of Moratuwa
-- **Faculty**: Faculty of Information Technology
-- **Year**: 2025
-- **Assignment**: Assignment 2
+## 🎓 Project Background
+
+Created as a demonstration of advanced network programming concepts learned at the University of Moratuwa. The application implements industry-standard practices for:
+- Socket-based client-server communication
+- Concurrent connection handling
+- Message routing and protocol design
+- Cross-platform deployment
 
 ---
 
@@ -593,7 +600,7 @@ To publish your app for download on GitHub:
 
 4. **Share the download link:**
    - Your app will be available at:
-   - `https://github.com/yourusername/multiclient-chat-app/releases/latest`
+   - `https://github.com/mrcentimetre/multiclient-chat-app/releases/latest`
    - Users can download the ZIP and run it directly!
 
 ### What Users Get
@@ -606,4 +613,19 @@ When someone downloads your release ZIP, they get:
 
 ---
 
-**Built with ❤️ for learning network programming concepts**
+## ⭐ Show Your Support
+
+If you find this project useful, please consider giving it a star on GitHub!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mrcentimetre/multiclient-chat-app/issues).
+
+## 📫 Connect
+
+- GitHub: [@mrcentimetre](https://github.com/mrcentimetre)
+- Project Link: [https://github.com/mrcentimetre/multiclient-chat-app](https://github.com/mrcentimetre/multiclient-chat-app)
+
+---
+
+**Made with ❤️ using Java Socket Programming**

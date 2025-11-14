@@ -113,7 +113,7 @@ Client can't connect?
 - Check that server host is "localhost" and port is "5000"
 
 Need help?
-- Visit: https://github.com/yourusername/multiclient-chat-app
+- Visit: https://github.com/mrcentimetre/multiclient-chat-app
 - Read full documentation: README.md in source code
 
 ========================================
