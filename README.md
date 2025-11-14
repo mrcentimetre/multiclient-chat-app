@@ -2,7 +2,55 @@
 
 A Java-based network chat application demonstrating socket programming, multi-threading, and real-time communication with private messaging capabilities.
 
+## Screenshots
+
+### Main Chat Interface
+![Chat Application Demo](screenshots/app-demo-1.jpeg)
+*Multiple clients connected with group chat and online users list*
+
+### Private Chat Feature
+![Private Chat Demo](screenshots/app-demo-2.jpeg)
+*Secure one-to-one private messaging between users*
+
+## Download & Quick Start
+
+### Option 1: Download Pre-built Release (Easiest)
+
+1. **Download** the latest release from the [Releases](../../releases) page
+2. **Extract** the ZIP file to your desired location
+3. **Run** the application:
+
+   **Start Server:**
+   ```bash
+   # Windows
+   run-server.bat
+
+   # Mac/Linux
+   ./run-server.sh
+   ```
+
+   **Start Client:**
+   ```bash
+   # Windows
+   run-client.bat
+
+   # Mac/Linux
+   ./run-client.sh
+   ```
+
+4. **Login** with any username and start chatting!
+
+### Option 2: Build from Source
+
+See [Setup and Installation](#setup-and-installation) section below.
+
+### Requirements
+- Java 8 or higher installed on your system
+- No additional dependencies needed!
+
 ## 📋 Table of Contents
+- [Download & Quick Start](#download--quick-start)
+- [Screenshots](#screenshots)
 - [Overview](#overview)
 - [Features](#features)
 - [System Architecture](#system-architecture)
@@ -105,6 +153,54 @@ Alice sends private message "Hi" to Bob:
 java -version
 javac -version
 ```
+
+### Build from Source
+
+**Quick Build:**
+
+On Mac/Linux:
+```bash
+./build.sh
+```
+
+On Windows:
+```bash
+build.bat
+```
+
+This will:
+- Compile all Java source files
+- Create executable JAR files in the `dist/` folder
+- Generate `ChatServer.jar` and `ChatClient.jar`
+
+**Run After Building:**
+```bash
+# Server
+java -jar dist/ChatServer.jar
+
+# Client
+java -jar dist/ChatClient.jar
+```
+
+### Create Release Package
+
+To create a distributable ZIP package:
+
+On Mac/Linux:
+```bash
+./create-release.sh
+```
+
+On Windows:
+```bash
+create-release.bat
+```
+
+This creates a `release/enhanced-chat-app-v1.0.0.zip` file containing:
+- Pre-built JAR files
+- Launch scripts for all platforms
+- User documentation
+- Everything needed to run the app
 
 ### Project Structure
 ```
@@ -461,6 +557,48 @@ java -cp bin client.ui.LoginUI
 
 # 5. Try Private Chat!
 ```
+
+---
+
+## 📦 Publishing to GitHub Releases
+
+To publish your app for download on GitHub:
+
+1. **Build the release package:**
+   ```bash
+   ./create-release.sh    # Mac/Linux
+   # or
+   create-release.bat     # Windows
+   ```
+
+2. **Push your code to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Release v1.0.0"
+   git push origin main
+   ```
+
+3. **Create a GitHub Release:**
+   - Go to your repository on GitHub
+   - Click "Releases" → "Create a new release"
+   - Tag version: `v1.0.0`
+   - Release title: `Enhanced Chat App v1.0.0`
+   - Description: Copy from the features section above
+   - Upload the file: `release/enhanced-chat-app-v1.0.0.zip`
+   - Click "Publish release"
+
+4. **Share the download link:**
+   - Your app will be available at:
+   - `https://github.com/yourusername/multiclient-chat-app/releases/latest`
+   - Users can download the ZIP and run it directly!
+
+### What Users Get
+
+When someone downloads your release ZIP, they get:
+- ✅ Pre-built JAR files (no compilation needed)
+- ✅ Easy-to-use launch scripts (just double-click)
+- ✅ Complete documentation
+- ✅ Ready to run on Windows, Mac, or Linux
 
 ---
 

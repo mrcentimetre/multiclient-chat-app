@@ -59,6 +59,12 @@ chat_history.txt
 **/chat_history.txt
 src/log/chat_history.txt
 
+# Distribution files (keep source, ignore built artifacts)
+dist/
+release/
+bin/
+*.zip
+
 # Libraries directory (if you vendor jars here)
 lib/
 
