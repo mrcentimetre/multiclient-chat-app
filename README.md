@@ -1,12 +1,10 @@
 # Enhanced Multi-Client Chat Application
 
+[![Release](https://img.shields.io/github/v/release/mrcentimetre/multiclient-chat-app)](https://github.com/mrcentimetre/multiclient-chat-app/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 [![Java](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey.svg)]()
 
 A production-ready Java chat application demonstrating advanced socket programming, multi-threading, and real-time communication. Features include group messaging, private chat, and a professional GUI - all built from scratch.
-
-**🚀 [Download Latest Release](https://github.com/mrcentimetre/multiclient-chat-app/releases/latest)**
 
 ## Screenshots
 
